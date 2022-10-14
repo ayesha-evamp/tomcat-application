@@ -31,7 +31,6 @@
 
   <build>
     <finalName>helloworld</finalName>
-  <plugins>
       <plugin>
         <!-- Build an executable JAR -->
         <groupId>org.apache.maven.plugins</groupId>
@@ -47,7 +46,6 @@
           </archive>
         </configuration>
       </plugin>
-    </plugins>
       <plugin>
         <groupId>org.codehaus.cargo</groupId>
         <artifactId>cargo-maven3-plugin</artifactId>
